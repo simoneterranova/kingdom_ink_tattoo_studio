@@ -151,12 +151,14 @@
   </url>
   
   <!-- Main content pages -->
+  <!-- DISEGNI PAGE COMMENTED OUT - Not needed for this shop
   <url>
     <loc>https://www.tribaltattoo.it/disegni</loc>
     <lastmod>2026-04-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  -->
   
   <url>
     <loc>https://www.tribaltattoo.it/piercings</loc>

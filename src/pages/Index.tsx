@@ -8,7 +8,7 @@ import TeamSection from "@/components/TeamSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import GallerySection from "@/components/GallerySection";
 import PiercingsSection from "@/components/PiercingsSection";
-import DisegniSection from "@/components/DisegniSection";
+// import DisegniSection from "@/components/DisegniSection"; // COMMENTED OUT - Not needed for this shop
 import FooterSection from "@/components/FooterSection";
 import { SeoHead } from "@/components/SeoHead";
 
@@ -50,7 +50,7 @@ const Index = () => {
       <ServicesSection />
       <TeamSection />
       <GallerySection />
-      <DisegniSection />
+      {/* <DisegniSection /> */} {/* COMMENTED OUT - Not needed for this shop */}
       <PiercingsSection />
       <TestimonialsSection />
       <FooterSection />

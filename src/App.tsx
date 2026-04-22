@@ -27,7 +27,7 @@ const CookiePolicy = lazy(() => import("./pages/CookiePolicy"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const GalleryPage = lazy(() => import("./pages/GalleryPage"));
 const PiercingsPage = lazy(() => import("./pages/PiercingsPage"));
-const DisegniPage = lazy(() => import("./pages/DisegniPage"));
+// const DisegniPage = lazy(() => import("./pages/DisegniPage")); // COMMENTED OUT - Not needed for this shop
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const ServiziPage = lazy(() => import("./pages/ServiziPage"));
 const AftercarePage = lazy(() => import("./pages/AftercarePage"));
@@ -184,7 +184,7 @@ const App = () => {
                       <Route path="/about-me" element={<AboutPage />} />
                       <Route path="/gallery" element={<GalleryPage />} />
                       <Route path="/piercings" element={<PiercingsPage />} />
-                      <Route path="/disegni" element={<DisegniPage />} />
+                      {/* <Route path="/disegni" element={<DisegniPage />} /> */} {/* COMMENTED OUT - Not needed for this shop */}
                       <Route path="/contatti" element={<ContactPage />} />
                       <Route path="/servizi" element={<ServiziPage />} />
                       <Route path="/cura-post-tatuaggio" element={<AftercarePage />} />

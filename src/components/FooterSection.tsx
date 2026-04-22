@@ -269,11 +269,11 @@ const FooterSection = () => {
                     Gallery
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="/disegni" className="text-muted-foreground hover:text-foreground transition-colors" title="Disegni e flash designs">
                     Disegni
                   </Link>
-                </li>
+                </li> */} {/* COMMENTED OUT - Not needed for this shop */}
                 <li>
                   <Link to="/piercings" className="text-muted-foreground hover:text-foreground transition-colors" title="Piercings professionali">
                     Piercings
@@ -342,11 +342,11 @@ const FooterSection = () => {
                     Gallery Tattoo
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#disegni" className="text-muted-foreground hover:text-foreground transition-colors" title="Sfoglia i disegni disponibili">
                     Disegni Flash
                   </a>
-                </li>
+                </li> */} {/* COMMENTED OUT - Not needed for this shop */}
                 <li>
                   <a href="#piercings" className="text-muted-foreground hover:text-foreground transition-colors" title="Guarda la gallery dei piercings">
                     Piercings Gallery
