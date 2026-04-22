@@ -29,7 +29,7 @@ const FaqPage = () => {
       questions: [
         {
           id: "dove-si-trova",
-          question: "Dove si trova Tribal Tattoo Studio?",
+          question: "Dove si trova Kingdom Ink Tattoo Studio?",
           answer: `Il nostro studio di tatuaggi si trova in ${shopConfig.contact.addressLines[0]}, ${shopConfig.contact.addressLines[1]}, nel cuore del quartiere ${shopConfig.contact.quarter[0]}. Siamo facilmente raggiungibili con i mezzi pubblici e c'è parcheggio nelle vicinanze.`,
           link: { to: "/moncalieri-tatuaggi-tribali", text: "Vedi come arrivare" }
         },
@@ -40,15 +40,15 @@ const FaqPage = () => {
           link: { to: "/#contact", text: "Prenota ora" }
         },
         {
-          id: "chi-e-claudio",
-          question: `Chi è ${shopConfig.author.name}, il maestro tatuatore?`,
-          answer: `${shopConfig.author.name} è il fondatore e maestro tatuatore di ${shopConfig.fullName}. Con oltre ${shopConfig.team[0].years} anni di esperienza, è specializzato in stili ${shopConfig.team[0].tags.join(", ")}. La sua passione per l'arte tribale sacra si riflette in ogni lavoro personalizzato.`,
+          id: "chi-e-simone",
+          question: `Chi è ${shopConfig.author.name}, l'artista tatuatore?`,
+          answer: `${shopConfig.author.name} è il fondatore e artista principale di ${shopConfig.fullName}. Specializzato in realismo black & grey ad alto contrasto e opere monumentali che spaziano dalla mitologia epica al lettering custom. La sua arte unisce eleganza oscura, precisione fotografica e urban heritage.`,
           link: { to: "/#team", text: `Scopri di più su ${shopConfig.author.name}` }
         },
         {
-          id: "perche-tribal-tattoo",
+          id: "perche-kingdom-ink",
           question: `Perché scegliere ${shopConfig.fullName}?`,
-          answer: "Tribal Tattoo offre consulenza gratuita, design 100% personalizzati e freehand, massimi standard di igiene, oltre 60 lavori documentati nel portfolio e un approccio professionale ma umano. Ogni tatuaggio è un'opera d'arte unica studiata per te e disegnata direttamente sul tuo corpo.",
+          answer: "Kingdom Ink offre realismo black & grey ad altissimo livello, consulenza personalizzata gratuita, design monumentali con tecnica chiaroscuro estrema, massimi standard di igiene e sterilità, e un portfolio documentato di opere che uniscono classicismo e street culture. Ogni tatuaggio è un'opera d'arte che comanda rispetto.",
           link: { to: "/portfolio", text: "Vedi i nostri lavori" }
         }
       ]
@@ -114,7 +114,7 @@ const FaqPage = () => {
         {
           id: "posso-portare-idea",
           question: "Posso portare la mia idea o un disegno?",
-          answer: "Assolutamente sì! Puoi portare foto, disegni, riferimenti o semplicemente descrivere la tua idea. Claudio Ciliberti lavorerà con te per trasformarla in un design personalizzato che funzioni perfettamente sulla tua pelle.",
+          answer: "Assolutamente sì! Puoi portare foto, disegni, riferimenti o semplicemente descrivere la tua idea. Simone Sorrentino lavorerà con te per trasformarla in un design personalizzato che funzioni perfettamente sulla tua pelle.",
           link: { to: "/#contact", text: "Prenota consulenza" }
         }
       ]
@@ -156,7 +156,7 @@ const FaqPage = () => {
         {
           id: "quali-stili",
           question: "Quali stili di tatuaggio realizzate?",
-          answer: "Siamo specializzati in Polinesiano, Maori, Tribale, Freehand, Dot Work, Black Work e tatuaggi geometrici. Ogni stile ha caratteristiche uniche che possiamo spiegarti in consulenza. La nostra specialità è l'arte tribale autentica, non semplici copie.",
+          answer: "Siamo specializzati in Realismo Black & Grey ad Alto Contrasto, Ritratti Fotografici, Lettering Chicano Custom, Mitologia Epica e Opere Monumentali. Ogni stile è eseguito con tecnica chiaroscuro estrema e precisione magistrale. La nostra specialità è l'arte che unisce eleganza oscura e urban heritage.",
           link: { to: "/#services", text: "Vedi tutti gli stili" }
         },
         {
@@ -254,14 +254,14 @@ const FaqPage = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ Tatuaggi Torino | Domande Frequenti | Tribal Tattoo Studio</title>
+        <title>FAQ Tatuaggi Torino | Domande Frequenti | Kingdom Ink Tattoo Studio</title>
         <meta 
           name="description" 
-          content={`Domande frequenti sui tatuaggi tribali a ${shopConfig.city}. Prezzi, preparazione, cura, stili, igiene. Risposte complete da ${shopConfig.author.name}, maestro tatuatore con ${shopConfig.team[0].years} anni esperienza.`} 
+          content={`Domande frequenti sui tatuaggi realistici a ${shopConfig.city}. Prezzi, preparazione, cura, stili, igiene. Risposte complete da ${shopConfig.author.name}, artista specializzato in realismo black & grey.`} 
         />
         <meta name="author" content={shopConfig.author.name} />
         <meta property="og:title" content="FAQ Tatuaggi Torino | Tutte le Risposte" />
-        <meta property="og:description" content="Tutte le risposte alle domande più frequenti sui tatuaggi tribali: prezzi, dolore, cura, stili, igiene. Guida completa by Tribal Tattoo Studio Moncalieri." />
+        <meta property="og:description" content="Tutte le risposte alle domande più frequenti sui tatuaggi realistici: prezzi, dolore, cura, stili, igiene. Guida completa by Kingdom Ink Tattoo Studio." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={`${shopConfig.meta.siteUrl}/faq-tatuaggi-torino`} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
@@ -396,11 +396,11 @@ const FaqPage = () => {
               Non Hai Trovato la Risposta?
             </h2>
             <p className="font-body text-lg mb-8 opacity-90">
-              Contattaci per una consulenza gratuita. Claudio Ciliberti sarà felice di rispondere 
+              Contattaci per una consulenza gratuita. Simone Sorrentino sarà felice di rispondere 
               a tutte le tue domande e aiutarti a realizzare il tatuaggio perfetto.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href={`tel:${shopConfig.contact.phoneHref.replace('tel:', '')}`} title="Chiama Tribal Tattoo Studio per informazioni">
+              <a href={`tel:${shopConfig.contact.phoneHref.replace('tel:', '')}`} title="Chiama Kingdom Ink Studio per informazioni">
                 <Button variant="secondary" size="lg">
                   Chiama Ora
                 </Button>

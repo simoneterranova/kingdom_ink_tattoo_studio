@@ -42,8 +42,8 @@ const GalleryPage = () => {
               
               <p>
                 Sfogliando le immagini nella gallery, puoi trovare idee e ispirazioni per il tuo prossimo 
-                tatuaggio. Se vedi uno stile che ti piace, il maestro Claudio Ciliberti sarà felice di aiutarti a personalizzarlo 
-                secondo le tue esigenze.
+                tatuaggio. Se vedi uno stile che ti piace, Simone Sorrentino sarà felice di aiutarti a personalizzarlo 
+                e trasformarlo in un'opera unica.
               </p>
 
               <p>
@@ -67,11 +67,11 @@ const GalleryPage = () => {
         <section className="py-16 px-6 bg-card">
           <div className="container mx-auto max-w-4xl text-center">
             <h3 className="font-heading text-3xl text-foreground mb-6">
-              Prenota il Tuo Tatuaggio Tribale
+              Prenota il Tuo Capolavoro
             </h3>
             <p className="font-body text-base text-muted-foreground mb-8 max-w-2xl mx-auto">
               Se una delle opere presenti nella gallery ti ha colpito o se hai un'idea tutta tua, 
-              non esitare a contattare Tribal Tattoo per una consulenza personalizzata.
+              non esitare a contattare Kingdom Ink per una consulenza personalizzata.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <ContactDialog>

@@ -9,16 +9,16 @@ const SurrealistPage = () => {
   const styleData = {
     slug: "tatuaggio-surrealista-a-torino",
     title: "Tatuaggio Surrealista a Torino",
-    metaTitle: "Tatuaggio Surrealista a Moncalieri (Torino) | Tribal Tattoo | Arte Onirica",
+    metaTitle: "Tatuaggio Surrealista a Torino | Kingdom Ink | Arte Onirica",
     metaDescription:
-      "Tatuaggi surrealisti a Moncalieri (Torino). Arte onirica, composizioni impossibili, simbolismo profondo. Studio Tribal Tattoo. Creatività senza limiti. Prenota consulenza.",
+      "Tatuaggi surrealisti a Torino. Arte onirica, composizioni impossibili, simbolismo profondo. Studio Kingdom Ink. Creatività senza limiti. Prenota consulenza.",
     h1: "Tatuaggio Surrealista a Moncalieri (Torino)",
     intro:
       "Il tatuaggio surrealista trasporta l'arte onirica e visionaria di Dalì, Magritte e altri maestri del surrealismo sulla pelle, creando composizioni impossibili che sfidano la logica e aprono porte verso mondi interiori. È lo stile perfetto per chi cerca un tatuaggio unico, carico di simbolismo e immaginazione.",
     about: [
       "Il surrealismo nel tatuaggio attinge dall'omonimo movimento artistico del XX secolo, che celebrava l'inconscio, i sogni e l'irrazionale. Elementi familiari vengono combinati in modi inaspettati: orologi che si sciolgono, scale che portano al nulla, occhi che piangono fiori, pesci che nuotano nel cielo.",
       "Ogni tatuaggio surrealista racconta una storia personale attraverso metafore visive potenti. Le composizioni sfidano la fisica e la logica, creando immagini che provocano riflessione e stupore. L'uso di prospettive impossibili, giochi di scale e metamorfosi è caratteristico di questo stile.",
-      "Tribal Tattoo interpreta il surrealismo con sensibilità artistica, trasformando sogni e visioni in tatuaggi che sono vere opere d'arte narrative, dove ogni elemento ha un significato simbolico profondo."
+      "Kingdom Ink interpreta il surrealismo con sensibilità artistica, trasformando sogni e visioni in tatuaggi che sono vere opere d'arte narrative, dove ogni elemento ha un significato simbolico profondo."
     ],
     features: [
       "Composizioni oniriche che sfidano la logica",
@@ -40,7 +40,7 @@ const SurrealistPage = () => {
     pricing:
       "I tatuaggi surrealisti sono generalmente complessi e richiedono tempo per i dettagli e le composizioni elaborate. Progetti ampi possono richiedere più sessioni. Un preventivo personalizzato viene fornito durante la consulenza gratuita.",
     gallery: [
-      { src: "/images/styles/tatuaggio-surrealista-a-torino/tattoo-gran-babar-torino.jpg", alt: "Tatuaggio Surrealista onirico - Tribal Tattoo Moncalieri (Torino)" }
+      { src: "/images/styles/tatuaggio-surrealista-a-torino/tattoo-gran-babar-torino.jpg", alt: "Tatuaggio Surrealista onirico - Kingdom Ink Torino" }
     ],
     relatedStyles: [
       { slug: "tatuaggio-realistico-a-torino", name: "Realistico" },

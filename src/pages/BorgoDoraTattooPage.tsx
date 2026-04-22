@@ -17,15 +17,15 @@ const BorgoDoraTattooPage = () => {
   return (
     <>
       <Helmet>
-        <title>Tatuaggi Tribali {shopConfig.city.split(",")[0]} | {shopConfig.fullName} | Arte Sacra dal {shopConfig.established}</title>
+        <title>Tatuaggi Realistici {shopConfig.city.split(",")[0]} | {shopConfig.fullName} | Regal Realism dal {shopConfig.established}</title>
         <meta
           name="description"
-          content={`Studio di tatuaggi tribali professionali a ${shopConfig.city}. ${shopConfig.author.name}, maestro tatuatore con ${shopConfig.team[0].years} anni esperienza. Arte polinesiaca, maori e tribale originale. ${shopConfig.contact.addressLines[0]}.`}
+          content={`Studio di tatuaggi realistici black & grey ad alto contrasto a ${shopConfig.city}. ${shopConfig.author.name}, artista specializzato in mitologia epica, ritratti fotografici e lettering custom. ${shopConfig.contact.addressLines[0]}.`}
         />
-        <meta property="og:title" content={`Tatuaggi Tribali ${shopConfig.city.split(",")[0]} | ${shopConfig.fullName}`} />
+        <meta property="og:title" content={`Tatuaggi Realistici {shopConfig.city.split(",")[0]} | ${shopConfig.fullName}`} />
         <meta
           property="og:description"
-          content={`Vera arte tribale originale a ${shopConfig.city.split(",")[0]} dal ${shopConfig.established}. ${shopConfig.author.name} specializzato in ${shopConfig.team[0].tags.slice(0, 3).join(", ").toLowerCase()}.`}
+          content={`Regal Realism infuso con Dark Elegance a ${shopConfig.city.split(",")[0]} dal ${shopConfig.established}. ${shopConfig.author.name} specializzato in chiaroscuro estremo e opere monumentali.`}
         />
         <link rel="canonical" href={`${shopConfig.meta.siteUrl}/moncalieri-tatuaggi-tribali`} />
       </Helmet>
@@ -50,12 +50,12 @@ const BorgoDoraTattooPage = () => {
               </div>
 
               <h1 className="font-heading text-5xl md:text-7xl text-foreground mb-6">
-                Tatuaggi Tribali a {shopConfig.city.split(",")[0]}
+                Tatuaggi Realistici a {shopConfig.city.split(",")[0]}
               </h1>
 
               <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8">
-                A {shopConfig.city}, {shopConfig.fullName} è il tempio dell'arte tribale sacra dal {shopConfig.established}. 
-                Vera arte original di magie antiche polinesiache e maori — non semplici copie.
+                A {shopConfig.city}, {shopConfig.fullName} è il regno del realismo monumentale dal {shopConfig.established}. 
+                Chiaroscuro estremo, mitologia epica, ritratti fotografici — arte che comanda rispetto.
               </p>
 
               <ContactDialog>
@@ -74,14 +74,14 @@ const BorgoDoraTattooPage = () => {
               <Landmark className="h-8 w-8 text-primary shrink-0 mt-1" />
               <div>
                 <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-4">
-                  Perché {shopConfig.city.split(",")[0]} per il Tuo Tatuaggio Tribale?
+                  Perché {shopConfig.city.split(",")[0]} per il Tuo Tatuaggio Realistico?
                 </h2>
                 <div className="space-y-4 font-body text-base text-foreground">
                   <p>
                     {shopConfig.city.split(",")[0]} è una città storica alle porte di Torino, con un centro caratteristico 
-                    e una forte identità culturale. Qui, dal {shopConfig.established}, {shopConfig.fullName} custodisce 
-                    l'arte sacra dei tatuaggi tribali, portando nei corpi dei clienti l'essenza delle 
-                    culture polinesiache e maori autentiche.
+                    e una forte identità culturale. Qui, dal {shopConfig.established}, {shopConfig.fullName} porta 
+                    l'eccellenza del realismo black & grey ad alto contrasto, creando opere monumentali che 
+                    uniscono tecnica fotografica e visione artistica audace.
                   </p>
                   <p>
                     {shopConfig.fullName} si trova in {shopConfig.contact.addressLines[0]}, nel cuore di {shopConfig.city.split(",")[0]}, facilmente 
@@ -90,9 +90,9 @@ const BorgoDoraTattooPage = () => {
                     clienti da tutta la provincia di Torino.
                   </p>
                   <p>
-                    Scegliere uno studio a {shopConfig.city.split(",")[0]} significa affidarsi a un maestro con {shopConfig.team[0].years} anni di esperienza 
-                    e viaggi nei luoghi sacri dell'arte tribale. Qui ogni tatuaggio è un rito, ogni segno viene 
-                    disegnato a mano sull'energia del tuo corpo — non copie, ma magie antiche reinterpretate.
+                    Scegliere Kingdom Ink a {shopConfig.city.split(",")[0]} significa affidarsi a un artista che padroneggia il chiaroscuro 
+                    estremo con neri profondi e sfumature perfette. Ogni tatuaggio è un'opera che fa letteralmente 
+                    uscire i soggetti dalla pelle — divinità greche, iconografia sacra, ritratti viscerali, lettering magistrale.
                   </p>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const BorgoDoraTattooPage = () => {
                 </h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   {[
-                    `${shopConfig.author.name}, maestro tatuatore con ${shopConfig.team[0].years} anni di esperienza dal ${shopConfig.established}`,
+                    `${shopConfig.author.name}, artista tatuatore specializzato in Realismo Black & Grey ad alto contrasto dal ${shopConfig.established}`,
                     `Specializzazione tribale: ${shopConfig.team[0].tags.join(", ")}`,
                     "Arte tribale originale — non copie, ma magie antiche autentiche",
                     "Design freehand disegnati a mano direttamente sul corpo",

@@ -72,7 +72,7 @@ const MainPortfolio = () => {
                 transition={{ delay: 0.2 }}
                 className="font-body text-lg text-muted-foreground leading-relaxed mb-8"
               >
-                Esplora oltre 60 tatuaggi realizzati nel nostro studio a Moncalieri (Torino) con oltre 30 anni di esperienza. 
+                Esplora oltre 60 tatuaggi realizzati nel nostro studio a Torino con esperienza artistica pluriennale. 
                 Ogni pezzo racconta una storia unica, dalla tradizione Old School americana 
                 al realismo contemporaneo. Scegli uno stile per vedere la collezione completa.
               </motion.p>

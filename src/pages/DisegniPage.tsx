@@ -1,6 +1,6 @@
 // ╔══════════════════════════════════════════════════════════════╗
 // ║     DISEGNI (FLASH DESIGNS) E-COMMERCE PAGE                  ║
-// ║     Modern e-commerce experience for tribal tattoo designs   ║
+// ║     Modern e-commerce experience for tattoo designs   ║
 // ║     Target: "disegni tribali torino", "flash tattoo torino"  ║
 // ╚══════════════════════════════════════════════════════════════╝
 
@@ -97,7 +97,7 @@ const DisegniPage = () => {
         <meta property="og:title" content={`Disegni Tribali Flash | ${shopConfig.name}`} />
         <meta 
           property="og:description" 
-          content={`${shopConfig.disegni.length} disegni tribali originali creati dal maestro Claudio Ciliberti. ${shopConfig.discount.enabled ? 'Sconto speciale su acquisti multipli!' : 'Design personalizzabili.'}`} 
+          content={`${shopConfig.disegni.length} design realistici originali creati da Simone Sorrentino. ${shopConfig.discount.enabled ? 'Sconto speciale su acquisti multipli!' : 'Design personalizzabili.'}`} 
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={shopConfig.meta.ogImage} />
@@ -160,8 +160,8 @@ const DisegniPage = () => {
                   transition={{ delay: 0.2 }}
                   className="font-body text-lg text-muted-foreground leading-relaxed"
                 >
-                  Disegni tribali originali creati dal maestro Claudio Ciliberti. 
-                  Ogni design è personalizzabile e può essere adattato alle tue esigenze.
+                  Design realistici originali creati da Simone Sorrentino. 
+                  Ogni design è personalizzabile e può essere adattato perfettamente al tuo progetto.
                 </motion.p>
               </div>
 

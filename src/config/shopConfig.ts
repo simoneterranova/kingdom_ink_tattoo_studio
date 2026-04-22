@@ -23,9 +23,10 @@
 // Replace these files in src/assets/ with Kingdom Ink's own photos/videos.
 import heroBg    from "@/assets/output_web.mp4";
 
-import artist1   from "@/assets/claudio1.webp";   // Simone – portrait 1
-import artist2   from "@/assets/claudio2.webp";   // Simone – portrait 2
-import artist3   from "@/assets/claudio3.webp";   // Simone – portrait 3
+// Artist photos
+import artist1   from "@/assets/claudio1.webp";   // Simone Sorrentino – portrait 1
+import artist2   from "@/assets/claudio2.webp";   // Simone Sorrentino – portrait 2
+import artist3   from "@/assets/claudio3.webp";   // Simone Sorrentino – portrait 3
 
 import gallery1  from "@/assets/tattoo-1.webp";
 import gallery2  from "@/assets/tattoo-2.webp";

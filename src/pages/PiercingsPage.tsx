@@ -18,15 +18,15 @@ const PiercingsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Piercings Professionali Moncalieri Torino | Galleria Completa | {shopConfig.name}</title>
+        <title>Piercings Professionali Torino | Galleria Completa | {shopConfig.name}</title>
         <meta 
           name="description" 
-          content={`Esplora la galleria dei piercings realizzati a Moncalieri (Torino) da ${shopConfig.name}. Piercing professionale eseguito in totale sicurezza e igiene. Oltre 20 tipi di piercing disponibili.`}
+          content={`Esplora la galleria dei piercings realizzati a Torino da ${shopConfig.name}. Piercing professionale eseguito in totale sicurezza e igiene. Oltre 20 tipi di piercing disponibili.`}
         />
-        <meta property="og:title" content="Piercings Professionali Moncalieri Torino | Tribal Tattoo" />
+        <meta property="og:title" content="Piercings Professionali Torino | Kingdom Ink" />
         <meta 
           property="og:description" 
-          content="Piercing professionale a Moncalieri. Massima igiene e sicurezza, gioielli di alta qualità. Consulenza gratuita." 
+          content="Piercing professionale a Torino. Massima igiene e sicurezza, gioielli di alta qualità. Consulenza gratuita." 
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={shopConfig.meta.ogImage} />

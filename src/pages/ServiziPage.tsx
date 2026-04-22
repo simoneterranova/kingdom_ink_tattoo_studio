@@ -26,7 +26,7 @@ const services = [
   {
     icon: Heart,
     title: "Cura Post-Tatuaggio",
-    description: "Il maestro Claudio Ciliberti ti consiglierà le migliori tecniche e prodotti per guarire al meglio il tuo tatuaggio, così da garantire un risultato finale ottimale.",
+    description: "Simone Sorrentino ti consiglierà le migliori tecniche e prodotti per guarire al meglio il tuo tatuaggio, garantendo un risultato finale perfetto.",
     link: "/cura-post-tatuaggio",
     linkText: "Scopri di più"
   }
@@ -36,8 +36,8 @@ const ServiziPage = () => {
   return (
     <>
       <Helmet>
-        <title>Servizi - Tatuaggi e Cover-up | Tribal Tattoo Torino</title>
-        <meta name="description" content="Servizi professionali di tatuaggio tribale a Moncalieri: tatuaggi personalizzati, cover-up, correzioni e cura post-tatuaggio. Tribal Tattoo Studio." />
+        <title>Servizi - Tatuaggi e Cover-up | Kingdom Ink Torino</title>
+        <meta name="description" content="Servizi professionali di tatuaggio realistico a Torino: tatuaggi personalizzati, cover-up, ritrattistica e cura post-tatuaggio. Kingdom Ink Tattoo Studio." />
         <link rel="canonical" href={`${shopConfig.meta.siteUrl}/servizi`} />
       </Helmet>
 

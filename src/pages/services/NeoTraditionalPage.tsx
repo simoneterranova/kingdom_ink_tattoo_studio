@@ -9,16 +9,16 @@ const NeoTraditionalPage = () => {
   const styleData = {
     slug: "tatuaggio-neo-tradizionale-a-torino",
     title: "Tatuaggio Neo Tradizionale a Torino",
-    metaTitle: "Tatuaggio Neo Tradizionale a Moncalieri (Torino) | Tribal Tattoo | Tradizione Evoluta",
+    metaTitle: "Tatuaggio Neo Tradizionale a Torino | Kingdom Ink | Tradizione Evoluta",
     metaDescription:
-      "Tatuaggi neo tradizionali a Moncalieri (Torino). Evoluzione dello stile old school con più dettagli e colori. Studio Tribal Tattoo. Prenota consulenza gratuita.",
+      "Tatuaggi neo tradizionali a Torino. Evoluzione dello stile old school con più dettagli e colori. Studio Kingdom Ink. Prenota consulenza gratuita.",
     h1: "Tatuaggio Neo Tradizionale a Moncalieri (Torino)",
     intro:
       "Lo stile neo tradizionale rappresenta l'evoluzione naturale del tatuaggio old school, mantenendo le linee bold e i soggetti iconici ma aggiungendo profondità, sfumature raffinate e una palette di colori più ampia. È il ponte perfetto tra tradizione e innovazione.",
     about: [
       "Il tatuaggio neo tradizionale nasce come evoluzione dello stile old school, mantenendone le linee bold e i contorni marcati ma incorporando tecniche moderne come sfumature elaborate, giochi di luce e ombra più complessi, e una palette cromatica estesa che va oltre i colori primari.",
       "Mentre l'old school è caratterizzato da colori piatti e forme bidimensionali, il neo tradizionale aggiunge dimensionalità attraverso ombreggiature sofisticate e dettagli più elaborati. I soggetti rimangono simili (rose, animali, pin-up, teschi) ma vengono interpretati con maggiore realismo e profondità artistica.",
-      "Tribal Tattoo combina il rispetto per la tradizione del tatuaggio con tecniche contemporanee, creando opere neo tradizionali che celebrano l'estetica classica con un tocco moderno e personale."
+      "Kingdom Ink combina il rispetto per la tradizione del tatuaggio con tecniche contemporanee, creando opere neo tradizionali che celebrano l'estetica classica con un tocco moderno e personale."
     ],
     features: [
       "Evoluzione dello stile old school con più dettagli",
@@ -40,7 +40,7 @@ const NeoTraditionalPage = () => {
     pricing:
       "I tatuaggi neo tradizionali richiedono più tempo dell'old school per via dei dettagli elaborati e delle sfumature complesse. Il costo varia in base alle dimensioni e alla complessità del design. Un preventivo personalizzato viene fornito durante la consulenza gratuita.",
     gallery: [
-      { src: "/images/styles/tatuaggio-neo-tradizionale-a-torino/gotico.jpg", alt: "Tatuaggio Neo Tradizionale - Tribal Tattoo Moncalieri (Torino)" }
+      { src: "/images/styles/tatuaggio-neo-tradizionale-a-torino/gotico.jpg", alt: "Tatuaggio Neo Tradizionale - Kingdom Ink Torino" }
     ],
     relatedStyles: [
       { slug: "tatuaggi-old-school-torino", name: "Old School" },

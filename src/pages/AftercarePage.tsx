@@ -11,7 +11,7 @@ const AftercarePage = () => {
   return (
     <>
       <Helmet>
-        <title>Cura Post-Tatuaggio - Guida Completa | Tribal Tattoo Torino</title>
+        <title>Cura Post-Tatuaggio - Guida Completa | Kingdom Ink Torino</title>
         <meta name="description" content="Guida completa alla cura post-tatuaggio. Istruzioni dettagliate per preservare bellezza, colori e dettagli del tuo tatuaggio a Torino." />
         <link rel="canonical" href={`${shopConfig.meta.siteUrl}/cura-post-tatuaggio`} />
       </Helmet>

@@ -10,16 +10,16 @@ const OldSchoolPage = () => {
   const styleData = {
     slug: "tatuaggi-old-school-torino",
     title: "Tatuaggi Old School Torino",
-    metaTitle: "Tatuaggio Old school a Moncalieri (Torino) - Tribal Tattoo",
+    metaTitle: "Tatuaggio Old school a Torino - Kingdom Ink",
     metaDescription:
-      "Se ami lo stile senza tempo dei tatuaggi old school, sei nel posto giusto. Tribal Tattoo realizza old school tattoo a Moncalieri (Torino), mantenendo viva la tradizione con linee audaci, colori pieni e simboli iconici.",
+      "Se ami lo stile senza tempo dei tatuaggi old school, sei nel posto giusto. Kingdom Ink realizza old school tattoo a Torino, mantenendo viva la tradizione con linee audaci, colori pieni e simboli iconici.",
     h1: "Old School Tattoo a Moncalieri (Torino)",
     intro:
-      "Se ami lo stile senza tempo dei tatuaggi old school, sei nel posto giusto. Tribal Tattoo realizza old school tattoo a Moncalieri (Torino), mantenendo viva la tradizione con linee audaci, colori pieni e simboli iconici. Ogni tatuaggio è studiato per resistere nel tempo, unendo la forza della tradizione alla personalizzazione moderna.",
+      "Se ami lo stile senza tempo dei tatuaggi old school, sei nel posto giusto. Kingdom Ink realizza old school tattoo a Torino, mantenendo viva la tradizione con linee audaci, colori pieni e simboli iconici. Ogni tatuaggio è studiato per resistere nel tempo, unendo la forza della tradizione alla personalizzazione moderna.",
     about: [
-      "L'old school tattoo nasce nei primi decenni del '900, quando marinai, avventurieri e ribelli lo usavano per raccontare la loro storia. Grazie a tatuatori leggendari come Sailor Jerry, questo stile ha mantenuto la sua forza espressiva fino ai giorni nostri. Linee spesse, colori accesi e soggetti simbolici – ancore, rondini, pugnali e pin-up – hanno reso questo genere inconfondibile. Tribal Tattoo porta avanti questa tradizione nel suo studio a Moncalieri (Torino), reinterpretandola con passione e cura per i dettagli.",
-      "Il segreto di un old school tattoo di successo risiede nella precisione tecnica e nell'attenzione ai dettagli. Tribal Tattoo utilizza metodi tradizionali che garantiscono inchiostri duraturi e disegni nitidi. Questo stile si distingue per l'uso di linee spesse, contorni ben definiti e colori solidi, che resistono al tempo e mantengono la loro intensità anno dopo anno.",
-      "Tribal Tattoo, con oltre 30 anni di esperienza dal 1994, ha fatto dell'old school tattoo un vero e proprio linguaggio artistico. La sua esperienza e la sua passione per il disegno lo portano a reinterpretare i classici in chiave moderna, senza mai tradirne l'essenza. Ogni tatuaggio è il risultato di un processo creativo condiviso con il cliente, per trasformare un'idea in un'opera d'arte su pelle."
+      "L'old school tattoo nasce nei primi decenni del '900, quando marinai, avventurieri e ribelli lo usavano per raccontare la loro storia. Grazie a tatuatori leggendari come Sailor Jerry, questo stile ha mantenuto la sua forza espressiva fino ai giorni nostri. Linee spesse, colori accesi e soggetti simbolici – ancore, rondini, pugnali e pin-up – hanno reso questo genere inconfondibile. Kingdom Ink porta avanti questa tradizione nel suo studio a Torino, reinterpretandola con passione e cura per i dettagli.",
+      "Il segreto di un old school tattoo di successo risiede nella precisione tecnica e nell'attenzione ai dettagli. Kingdom Ink utilizza metodi tradizionali che garantiscono inchiostri duraturi e disegni nitidi. Questo stile si distingue per l'uso di linee spesse, contorni ben definiti e colori solidi, che resistono al tempo e mantengono la loro intensità anno dopo anno.",
+      "Kingdom Ink ha fatto dell'old school tattoo un vero e proprio linguaggio artistico. La sua passione per il disegno lo porta a reinterpretare i classici in chiave moderna, senza mai tradirne l'essenza. Ogni tatuaggio è il risultato di un processo creativo condiviso con il cliente, per trasformare un'idea in un'opera d'arte su pelle."
     ],
     features: [
       "Aquila – Coraggio e indipendenza",
@@ -32,7 +32,7 @@ const OldSchoolPage = () => {
       "Inchiostri duraturi e disegni nitidi"
     ],
     process: [
-      "Consulenza iniziale: discutiamo il soggetto e il significato che vuoi dare al tatuaggio. Claudio Ciliberti accompagna i suoi clienti nella scelta, curando ogni dettaglio per rendere il tatuaggio un pezzo unico.",
+      "Consulenza iniziale: discutiamo il soggetto e il significato che vuoi dare al tatuaggio. Simone Sorrentino accompagna i suoi clienti nella scelta, curando ogni dettaglio per rendere il tatuaggio un pezzo unico.",
       "Design personalizzato: ogni simbolo può essere personalizzato per rappresentare al meglio la storia di chi lo porta.",
       "Preparazione della sessione: utilizziamo metodi tradizionali con inchiostri di alta qualità e massima attenzione all'igiene.",
       "Esecuzione del tatuaggio: ogni tatuaggio è il risultato di un processo creativo condiviso con il cliente, per trasformare un'idea in un'opera d'arte su pelle.",
@@ -41,7 +41,7 @@ const OldSchoolPage = () => {
     pricing:
       "Contattaci per un preventivo personalizzato. La durata di una sessione varia in base alla complessità e alle dimensioni del tatuaggio. In genere, una sessione può durare da 1 a 3 ore, ma il nostro team ti fornirà una stima precisa durante la consulenza iniziale.",
     gallery: [
-      { src: shopConfig.gallery[0].src, alt: "Tatuaggio Old School con ancora e rondini - Tribal Tattoo Moncalieri (Torino)" }
+      { src: shopConfig.gallery[0].src, alt: "Tatuaggio Old School con ancora e rondini - Kingdom Ink Torino" }
     ],
     relatedStyles: [
       { slug: "tatuaggio-realistico-a-torino", name: "Tatuaggi Realistici" },

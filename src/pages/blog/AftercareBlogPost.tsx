@@ -5,7 +5,7 @@ const AftercareBlogPost = () => {
   const postData = {
     slug: "cura-tatuaggio-aftercare",
     title: "Come Curare un Tatuaggio Nuovo: Guida Completa all'Aftercare 2026",
-    metaTitle: "Come Curare un Tatuaggio Nuovo | Aftercare Completo | Tribal Tattoo",
+    metaTitle: "Come Curare un Tatuaggio Nuovo | Aftercare Completo | Kingdom Ink",
     metaDescription:
       "Guida completa alla cura del tatuaggio nuovo. Cosa fare giorno per giorno, prodotti consigliati, errori da evitare, segni di infezione. Guarigione perfetta garantita.",
     publishDate: "2026-03-30",
@@ -39,7 +39,7 @@ const AftercareBlogPost = () => {
         {
           heading: "Prodotti Consigliati (e Quelli da Evitare)",
           paragraphs: [
-            "Usa prodotti giusti fin dal primo giorno. Ecco la mia lista testata dopo 30 anni di esperienza dal 1994:"
+            "Usa prodotti giusti fin dal primo giorno. Ecco la mia lista testata attraverso anni di esperienza:"
           ],
           list: [
             "✅ Sapone neutro antibatterico (es. Saugella, pH 5.5) - Per lavaggi delicati",
@@ -99,7 +99,7 @@ const AftercareBlogPost = () => {
             "Linee che necessitano rinforzo - Rare linee possono risultare più chiare dopo guarigione",
             "Colori che sbiadiscono - Alcuni colori (giallo, bianco) possono schiarirsi più del previsto",
             "Aree con sfregamento costante - Mani, piedi tendono a perdere inchiostro",
-            "Il ritocco è incluso! Al Tribal Tattoo Studio offro una valutazione gratuita dopo la guarigione completa (circa 2-3 mesi) per verificare se serve un ritocco. Se necessario, lo realizzo senza costi aggiuntivi.",
+            "Il ritocco è incluso! Al Kingdom Ink offro una valutazione gratuita dopo la guarigione completa (circa 2-3 mesi) per verificare se serve un ritocco. Se necessario, lo realizzo senza costi aggiuntivi.",
             "Come si fa: Appuntamento breve (30-60min). Si rinforzano solo le aree necessarie. Guarigione più veloce della prima volta."
           ]
         },
@@ -130,7 +130,7 @@ const AftercareBlogPost = () => {
         }
       ],
       conclusion:
-        "La cura del tatuaggio è semplice se segui le regole: lava corretto delicato, crema sottile regolare, no grattare, no sole. Il 99% delle complicazioni deriva da non seguire queste basi. Al Tribal Tattoo Studio ti fornisco istruzioni scritte dettagliate e resto disponibile 24/7 per qualsiasi dubbio via WhatsApp. Ricorda: il tatuaggio è per sempre, vale la pena prendersi cura di lui per 3 settimane."
+        "La cura del tatuaggio è semplice se segui le regole: lava corretto delicato, crema sottile regolare, no grattare, no sole. Il 99% delle complicazioni deriva da non seguire queste basi. Al Kingdom Ink ti fornisco istruzioni scritte dettagliate e resto disponibile 24/7 per qualsiasi dubbio via WhatsApp. Ricorda: il tatuaggio è per sempre, vale la pena prendersi cura di lui per 3 settimane."
     },
     relatedPosts: [
       { slug: "primo-tatuaggio-guida", title: "Primo Tatuaggio: Guida Completa" },

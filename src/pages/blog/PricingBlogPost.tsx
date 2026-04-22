@@ -9,14 +9,14 @@ const PricingBlogPost = () => {
   const postData = {
     slug: "quanto-costa-tatuaggio-torino",
     title: "Come Viene Calcolato il Prezzo di un Tatuaggio? Guida Trasparente",
-    metaTitle: "Come Funziona il Preventivo per un Tatuaggio | Tribal Tattoo Studio Torino",
+    metaTitle: "Come Funziona il Preventivo per un Tatuaggio | Kingdom Ink Torino",
     metaDescription:
-      "Scopri come viene calcolato il prezzo di un tatuaggio a Moncalieri (Torino). Fattori che influenzano il preventivo: dimensione, stile, complessità. Consulenza gratuita per preventivo personalizzato. Massima trasparenza.",
+      "Scopri come viene calcolato il prezzo di un tatuaggio a Torino. Fattori che influenzano il preventivo: dimensione, stile, complessità. Consulenza gratuita per preventivo personalizzato. Massima trasparenza.",
     publishDate: "2026-03-30",
     readTime: "7 minuti",
     content: {
       intro:
-        "Una delle domande più frequenti che riceviamo al Tribal Tattoo Studio è: quanto costa un tatuaggio a Moncalieri (Torino)? La risposta onesta è che ogni tatuaggio è unico e il prezzo viene definito durante la consulenza gratuita. In questa guida ti spiego in modo trasparente i fattori che determinano il preventivo e come funziona il processo di valutazione.",
+        "Una delle domande più frequenti che riceviamo al Kingdom Ink è: quanto costa un tatuaggio a Torino? La risposta onesta è che ogni tatuaggio è unico e il prezzo viene definito durante la consulenza gratuita. In questa guida ti spiego in modo trasparente i fattori che determinano il preventivo e come funziona il processo di valutazione.",
       sections: [
         {
           heading: "Fattori Che Determinano il Prezzo di un Tatuaggio",
@@ -36,7 +36,7 @@ const PricingBlogPost = () => {
         {
           heading: "Come Funziona la Stima del Tempo e del Preventivo",
           paragraphs: [
-            "Al Tribal Tattoo Studio il preventivo viene calcolato in base al tempo stimato per completare il tuo progetto. Durante la consulenza gratuita, analizzo insieme a te tutti i fattori per fornirti una stima accurata e trasparente. Ecco come categorizzo i progetti in base alla complessità:"
+            "Al Kingdom Ink il preventivo viene calcolato in base al tempo stimato per completare il tuo progetto. Durante la consulenza gratuita, analizzo insieme a te tutti i fattori per fornirti una stima accurata e trasparente. Ecco come categorizzo i progetti in base alla complessità:"
           ],
           table: {
             headers: ["Categoria", "Tempo Stimato", "Caratteristiche", "Esempi"],
@@ -68,7 +68,7 @@ const PricingBlogPost = () => {
         {
           heading: "Cosa Include il Preventivo del Tatuaggio?",
           paragraphs: [
-            "Al Tribal Tattoo Studio il preventivo che ricevi durante la consulenza gratuita include tutto il necessario. Non ci sono costi nascosti o sorprese. Massima trasparenza dall'inizio alla fine. Ecco cosa ottieni:"
+            "Al Kingdom Ink il preventivo che ricevi durante la consulenza gratuita include tutto il necessario. Non ci sono costi nascosti o sorprese. Massima trasparenza dall'inizio alla fine. Ecco cosa ottieni:"
           ],
           list: [
             "Consulenza gratuita iniziale per discutere il progetto in dettaglio",
@@ -96,12 +96,12 @@ const PricingBlogPost = () => {
         {
           heading: "Perché i Preventivi Variano Tra Diversi Studi?",
           paragraphs: [
-            "A Moncalieri e Torino troverai studi con approcci molto diversi ai preventivi. La differenza riflette esperienza, specializzazione, qualità dei materiali e standard igienici. Ecco come orientarti nella scelta:"
+            "A Torino troverai studi con approcci molto diversi ai preventivi. La differenza riflette esperienza, specializzazione, qualità dei materiali e standard igienici. Ecco come orientarti nella scelta:"
           ],
           list: [
             "Studi low-cost: spesso utilizzati da tatuatori principianti per fare pratica. Rischi significativi sulla qualità finale e sugli standard igienici.",
             "Studi generalisti: tatuatori con esperienza base che realizzano diversi stili senza vera specializzazione. Qualità variabile.",
-            "Studi specializzati: tatuatori esperti focalizzati su stili specifici, come Tribal Tattoo Studio con oltre 30 anni di esperienza esclusiva in tribale. Qualità superiore e risultati garantiti.",
+            "Studi specializzati: tatuatori esperti focalizzati su stili specifici, come Kingdom Ink specializzato in Realismo Black & Grey Monumentale e opere ad alto contrasto. Qualità superiore e risultati garantiti.",
             "Studi premium: celebrity tattoo artist con fama internazionale. Liste d'attesa molto lunghe e preventivi elevati.",
             "⚠️ Attenzione: un tatuaggio tribale mal eseguito è estremamente difficile da correggere. Scegliere in base al prezzo più basso oggi può costarti molto di più in futuro per laser removal o cover-up complessi. Investi in qualità fin dall'inizio."
           ]
@@ -123,16 +123,16 @@ const PricingBlogPost = () => {
         {
           heading: "Preventivo Gratuito: Come Funziona",
           paragraphs: [
-            "Al Tribal Tattoo Studio la consulenza è sempre gratuita e senza impegno. Ecco come ottenerla:",
+            "Al Kingdom Ink la consulenza è sempre gratuita e senza impegno. Ecco come ottenerla:",
             "Contattami via WhatsApp, Instagram o telefono. Mandami una descrizione del progetto tribale, dimensioni desiderate e foto della zona del corpo.",
-            "Fissiamo un appuntamento in studio a Moncalieri (15-30 minuti). Parliamo del design, ti mostro il mio portfolio specializzato in Polinesiano, Maori, Tribale, Freehand e Dot Work, valutiamo dimensioni e posizionamento.",
+            "Fissiamo un appuntamento in studio a Torino (15-30 minuti). Parliamo del design, ti mostro il mio portfolio specializzato in Realismo Black & Grey, Ritrattistica Monumentale, Lettering Custom e Opere Epiche, valutiamo dimensioni e posizionamento.",
             "Ti fornisco un preventivo trasparente basato sulle ore stimate. Se accetti, prenotiamo l'appuntamento per l'esecuzione.",
             "Prima della sessione finalizzo il bozzetto personalizzato e lo approvi. Solo dopo iniziamo il tatuaggio. Massima trasparenza, zero sorprese."
           ]
         }
       ],
       conclusion:
-        "I preventivi per i tatuaggi a Moncalieri (Torino) riflettono esperienza, specializzazione e qualità dei materiali. Al Tribal Tattoo Studio, con oltre 30 anni di esperienza dal 1994 in stili Polinesiano, Maori, Tribale, Freehand e Dot Work, la trasparenza è il mio impegno fondamentale: durante la consulenza gratuita ricevi un preventivo dettagliato, chiaro e senza sorprese. Ogni prezzo viene calcolato in base al tuo progetto specifico. Ricorda: un tatuaggio tribale è per sempre e molto visibile. Investire nella qualità significa portare sulla pelle un'opera d'arte autentica di cui sarai fiero per tutta la vita. Contattami per la tua consulenza gratuita e senza impegno."
+        "I preventivi per i tatuaggi a Torino riflettono esperienza, specializzazione e qualità dei materiali. Al Kingdom Ink, specializzato in Realismo Black & Grey ad Alto Contrasto e opere monumentali, la trasparenza è il mio impegno fondamentale: durante la consulenza gratuita ricevi un preventivo dettagliato, chiaro e senza sorprese. Ogni prezzo viene calcolato in base al tuo progetto specifico. Ricorda: un tatuaggio realistico monumentale è per sempre e molto visibile. Investire nella qualità significa portare sulla pelle un'opera d'arte autentica di cui sarai fiero per tutta la vita. Contattami per la tua consulenza gratuita e senza impegno."
     },
     relatedPosts: [
       { slug: "primo-tatuaggio-guida", title: "Primo Tatuaggio: Guida Completa" },

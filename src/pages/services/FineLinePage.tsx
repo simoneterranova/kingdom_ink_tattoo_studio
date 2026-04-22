@@ -10,12 +10,12 @@ const FineLinePage = () => {
   const styleData = {
     slug: "tatuaggio-fine-line-a-torino",
     title: "Tatuaggio Fine Line a Torino",
-    metaTitle: "Tatuaggio Fine Line a Moncalieri (Torino) | Tribal Tattoo Studio | Eleganza Minimalista",
+    metaTitle: "Tatuaggio Fine Line a Torino | Kingdom Ink | Eleganza Minimalista",
     metaDescription:
-      "Tatuaggi fine line a Moncalieri (Torino). Linee sottili, design minimalisti ed eleganti. Studio Tribal Tattoo, esperienza di oltre 30 anni dal 1994. Prenota consulenza gratuita.",
+      "Tatuaggi fine line a Torino. Linee sottili, design minimalisti ed eleganti. Studio Kingdom Ink, esperienza artistica consolidata. Prenota consulenza gratuita.",
     h1: "Tatuaggio Fine Line a Moncalieri (Torino)",
     intro:
-      "Il tatuaggio fine line a Moncalieri (Torino) rappresenta una delle forme più raffinate e contemporanee dell'arte del tatuaggio. Da Tribal Tattoo, ogni linea sottile diventa una dichiarazione di stile, una scelta di eleganza e precisione che trasforma la pelle in un racconto personale.",
+      "Il tatuaggio fine line a Torino rappresenta una delle forme più raffinate e contemporanee dell'arte del tatuaggio. Da Kingdom Ink, ogni linea sottile diventa una dichiarazione di stile, una scelta di eleganza e precisione che trasforma la pelle in un racconto personale.",
     about: [
       "Lo stile Fine Line si distingue per l'utilizzo di linee sottilissime, disegnate con ago singolo o aghi estremamente fini, che permettono di realizzare tatuaggi dal tratto pulito e delicato. Questa tecnica richiede una mano esperta, un controllo assoluto della pressione e una sensibilità artistica capace di bilanciare minimalismo e dettaglio.",
       "Il tatuaggio fine line non è solo una scelta estetica, ma una forma d'espressione intima e moderna. Le linee sottili, spesso monocromatiche, raccontano emozioni e momenti significativi senza bisogno di colori o riempimenti complessi. È la scelta ideale per chi desidera un tatuaggio elegante, discreto e senza tempo.",
@@ -32,7 +32,7 @@ const FineLinePage = () => {
       "Stile contemporaneo che non passa di moda"
     ],
     process: [
-      "Consulenza personalizzata: Claudio Ciliberti ascolta le tue idee e ti guida nella scelta del design perfetto per il tuo tatuaggio fine line.",
+      "Consulenza personalizzata: Simone Sorrentino ascolta le tue idee e ti guida nella scelta del design perfetto per il tuo tatuaggio fine line.",
       "Progettazione del disegno: ogni linea viene studiata per garantire equilibrio, armonia e significato personale.",
       "Preparazione della sessione: ti spieghiamo come preparare la pelle e cosa aspettarti durante la seduta.",
       "Esecuzione con precisione: utilizziamo aghi ultrasottili e tecnica impeccabile per creare tratti netti e definiti.",
@@ -41,7 +41,7 @@ const FineLinePage = () => {
     pricing:
       "Il costo varia in base alla complessità del disegno e alle dimensioni. Durante la consulenza gratuita ti forniremo un preventivo preciso e trasparente per il tuo progetto.",
     gallery: [
-      { src: "/images/tatuaggi/Minimal-tattoo-1.jpg", alt: "Tatuaggio Fine Line elegante - Tribal Tattoo Moncalieri (Torino)" }
+      { src: "/images/tatuaggi/Minimal-tattoo-1.jpg", alt: "Tatuaggio Fine Line elegante - Kingdom Ink Torino" }
     ],
     relatedStyles: [
       { slug: "tatuaggio-minimalista-a-torino", name: "Minimalista" },

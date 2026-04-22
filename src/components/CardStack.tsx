@@ -17,7 +17,7 @@ import React, { useState, useEffect } from 'react';
 import { useSprings, animated, to as interpolate } from '@react-spring/web';
 import { useDrag } from '@use-gesture/react';
 
-// ─── Inline styles adapted to Tribal Tattoo theme ────────────────────────────
+// ─── Inline styles adapted to Kingdom Ink theme ────────────────────────────────
 
 const CARD_STACK_CSS = `
   .cs-root {

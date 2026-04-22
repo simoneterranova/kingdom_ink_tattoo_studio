@@ -10,16 +10,16 @@ const RealisticPortfolio = () => {
   const portfolioData = {
     slug: "realistici-torino",
     title: "Portfolio Realistici",
-    metaTitle: "Portfolio Tatuaggi Realistici Torino | Galleria Tribal Tattoo",
+    metaTitle: "Portfolio Tatuaggi Realistici Torino | Galleria Kingdom Ink",
     metaDescription:
-      "Galleria tatuaggi realistici e Black & Grey a Moncalieri (Torino). Claudio Ciliberti specialista in ritratti, animali e nature morte con dettaglio fotografico. 15+ lavori.",
+      "Galleria tatuaggi realistici e Black & Grey a Torino. Simone Sorrentino specialista in ritratti, animali e nature morte con dettaglio fotografico. 15+ lavori.",
     h1: "Portfolio Tatuaggi Realistici Torino",
     intro:
-      "Scopri i nostri tatuaggi realistici realizzati a Moncalieri (Torino). Ritratti, animali, nature morte: ogni pezzo è studiato per catturare ogni dettaglio con precisione fotografica usando sfumature Black & Grey.",
+      "Scopri i nostri tatuaggi realistici realizzati a Torino. Ritratti, animali, nature morte: ogni pezzo è studiato per catturare ogni dettaglio con precisione fotografica usando sfumature Black & Grey.",
     gallery: [
       {
         src: shopConfig.gallery[1].src,
-        alt: "Tatuaggio realistico Black & Grey realizzato a Moncalieri da Tribal Tattoo",
+        alt: "Tatuaggio realistico Black & Grey realizzato a Torino da Kingdom Ink",
         caption: "Realismo Black & Grey - Dettaglio ombreggiatture"
       },
       // Aggiungi più immagini qui per popolare la galleria

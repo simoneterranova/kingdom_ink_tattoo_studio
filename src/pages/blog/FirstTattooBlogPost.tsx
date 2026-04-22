@@ -4,15 +4,15 @@ import { BlogPostTemplate } from "./BlogPostTemplate";
 const FirstTattooBlogPost = () => {
   const postData = {
     slug: "primo-tatuaggio-guida",
-    title: "Primo Tatuaggio: Guida Completa per Chi Inizia a Moncalieri (Torino)",
+    title: "Primo Tatuaggio: Guida Completa per Chi Inizia a Torino",
     metaTitle: "Primo Tatuaggio: Cosa Sapere Prima di Iniziare | Guida Completa 2026",
     metaDescription:
-      "Guida completa per il tuo primo tatuaggio a Moncalieri (Torino). Cosa sapere, come prepararsi, quanto fa male, come scegliere il design. Consigli da Claudio Ciliberti - Tribal Tattoo Studio.",
+      "Guida completa per il tuo primo tatuaggio a Torino. Cosa sapere, come prepararsi, quanto fa male, come scegliere il design. Consigli da Simone Sorrentino - Kingdom Ink Tattoo Studio.",
     publishDate: "2026-03-30",
     readTime: "10 minuti",
     content: {
       intro:
-        "Stai pensando al tuo primo tatuaggio ma hai mille domande? È normalissimo. In questa guida rispondo a tutte le domande che ricevo quotidianamente al Tribal Tattoo Studio da chi si tatua per la prima volta. Dall'idea al risultato finale, ti accompagno passo dopo passo.",
+        "Stai pensando al tuo primo tatuaggio ma hai mille domande? È normalissimo. In questa guida rispondo a tutte le domande che ricevo quotidianamente al Kingdom Ink da chi si tatua per la prima volta. Dall'idea al risultato finale, ti accompagno passo dopo passo.",
       sections: [
         {
           heading: "Prima di Tatuarti: Le Domande Fondamentali",
@@ -44,7 +44,7 @@ const FirstTattooBlogPost = () => {
         {
           heading: "Zone del Corpo: Dove Fa Più Male?",
           paragraphs: [
-            "Il dolore è soggettivo ma alcune zone sono oggettivamente più dolorose di altre. Ecco la mia scala del dolore basata su 30 anni di esperienza dal 1994:"
+            "Il dolore è soggettivo ma alcune zone sono oggettivamente più dolorose di altre. Ecco la mia scala del dolore basata su esperienza consolidata:"
           ],
           table: {
             headers: ["Zona Corpo", "Livello Dolore", "Note"],
@@ -90,7 +90,7 @@ const FirstTattooBlogPost = () => {
         {
           heading: "Cosa Aspettarsi Durante la Sessione",
           paragraphs: [
-            "Ecco come si svolge una tipica sessione di tatuaggio al Tribal Tattoo Studio:"
+            "Ecco come si svolge una tipica sessione di tatuaggio al Kingdom Ink:"
           ],
           list: [
             "Arrivo e accoglienza (5 min) - Ti faccio accomodare, offro caffè/acqua, spiego il processo",
@@ -105,7 +105,7 @@ const FirstTattooBlogPost = () => {
         {
           heading: "Quanto Costa? (Per Primi Tatuaggi)",
           paragraphs: [
-            "I primi tatuaggi tendono ad essere piccoli-medi. Il costo dipende da dimensione, complessità, tempo di esecuzione e stile scelto. Al Tribal Tattoo Studio a Moncalieri (Torino):"
+            "I primi tatuaggi tendono ad essere piccoli-medi. Il costo dipende da dimensione, complessità, tempo di esecuzione e stile scelto. Al Kingdom Ink a Torino:"
           ],
           list: [
             "Consulenza sempre gratuita - Ti mostro portfolio specializzato in stili tribali, discutiamo design personalizzato",
@@ -116,7 +116,7 @@ const FirstTattooBlogPost = () => {
         {
           heading: "Errori Comuni da Evitare",
           paragraphs: [
-            "Dopo 30 anni di esperienza dal 1994, ecco gli errori che vedo ripetere dai principianti:"
+            "Con esperienza consolidata, ecco gli errori che vedo ripetere dai principianti:"
           ],
           list: [
             "❌ Tatuarsi il nome del partner dopo 3 mesi di relazione",
@@ -131,10 +131,10 @@ const FirstTattooBlogPost = () => {
         }
       ],
       conclusion:
-        "Il primo tatuaggio è un'esperienza unica che ricorderai per sempre. Con la giusta preparazione e scegliendo un tatuatore esperto, sarà un momento positivo e gratificante. Al Tribal Tattoo Studio do massima attenzione ai clienti al primo tatuaggio: ti seguo passo dopo passo, rispondo a ogni domanda, ti metto a tuo agio. Con 30 anni di esperienza specializzata in stili Polinesiano, Maori, Tribale, Freehand e Dot Work, garantisco lavori di altissima qualità. La consulenza è gratuita e senza impegno: vieni a parlarne a Moncalieri (Torino), vediamo insieme se è il momento giusto per te."
+        "Il primo tatuaggio è un'esperienza unica che ricorderai per sempre. Con la giusta preparazione e scegliendo un tatuatore esperto, sarà un momento positivo e gratificante. Al Kingdom Ink do massima attenzione ai clienti al primo tatuaggio: ti seguo passo dopo passo, rispondo a ogni domanda, ti metto a tuo agio. Specializzato in Realismo Black & Grey ad Alto Contrasto, Ritrattistica Monumentale, Lettering Custom e Opere Epiche, garantisco lavori di altissima qualità artistica. La consulenza è gratuita e senza impegno: vieni a parlarne a Torino, vediamo insieme se è il momento giusto per te."
     },
     relatedPosts: [
-      { slug: "quanto-costa-tatuaggio-torino", title: "Quanto Costa un Tatuaggio a Moncalieri (Torino)" },
+      { slug: "quanto-costa-tatuaggio-torino", title: "Quanto Costa un Tatuaggio a Torino" },
       { slug: "cura-tatuaggio-aftercare", title: "Come Curare un Tatuaggio Nuovo" }
     ]
   };

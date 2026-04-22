@@ -12,7 +12,7 @@ const AboutPage = () => {
     <>
       <Helmet>
         <title>About - {shopConfig.author.name} | {shopConfig.fullName} {shopConfig.city.split(",")[0]}</title>
-        <meta name="description" content={`Scopri la storia di ${shopConfig.author.name}, maestro tatuatore tribale a ${shopConfig.city} dal ${shopConfig.established}. ${shopConfig.team[0].years} anni di esperienza in arte ${shopConfig.team[0].tags.slice(0, 3).join(", ").toLowerCase()} originale.`} />
+        <meta name="description" content={`Scopri la storia di ${shopConfig.author.name}, artista tatuatore specializzato in realismo black & grey a ${shopConfig.city} dal ${shopConfig.established}. Maestria del chiaroscuro, mitologia epica, lettering custom.`} />
         <link rel="canonical" href={`${shopConfig.meta.siteUrl}/about-me`} />
       </Helmet>
 
@@ -36,77 +36,76 @@ const AboutPage = () => {
               className="space-y-6 font-body text-base leading-relaxed text-foreground"
             >
               <p>
-                Dal 1994, Claudio Ciliberti porta nei corpi dei suoi clienti l'essenza delle culture tribali 
-                di tutto il mondo. <strong>TRIBAL TATTOO STUDIO</strong> non è solo un nome — è un tempio dedicato 
-                all'arte sacra tribale, dove ogni segno diventa magia antica.
+                Dal {shopConfig.established}, <strong>Simone Sorrentino</strong> trasforma la pelle in tela per opere monumentali. 
+                <strong> KINGDOM INK</strong> non è solo uno studio — è un regno dove il realismo 
+                fotografico incontra l'eleganza oscura, dove ogni opera diventa leggendaria.
               </p>
 
               <h2 className="font-heading text-3xl text-foreground mt-12 mb-4">
-                Un Viaggio di 30 Anni nel Cuore dell'Arte Tribale
+                Regal Realism — L'Arte del Chiaroscuro Estremo
               </h2>
               
               <p>
-                Claudio ha dedicato tre decenni a studiare, viaggiare e incarnare l'arte tribale autentica. 
-                I suoi viaggi in Polinesia, Nuova Zelanda e nei luoghi sacri dell'Asia gli hanno permesso di 
-                costruire un rapporto profondo con le culture originarie — non per copiarne i simboli, ma per 
-                comprenderne lo spirito e reinterpretarli sull'energia di ogni individuo.
+                Kingdom Ink è specializzato in <strong>high-contrast black & grey realism</strong> con una padronanza 
+                assoluta del chiaroscuro. Utilizzando neri profondi e sfumature perfette, Simone crea un effetto 
+                tridimensionale che fa letteralmente uscire i soggetti dalla pelle — ragni iperrealistici, teschi 
+                architettonici, ritratti che sembrano respirare.
               </p>
 
               <p>
-                Ogni tatuaggio è un <strong>rito sacro</strong>. Il design viene disegnato a mano libera direttamente 
-                sul corpo con il marcatore rosso, seguendo il flusso dei muscoli, rispettando l'anatomia. 
-                Non è una copia — è arte viva che nasce dall'incontro tra il maestro e il corpo di chi si affida.
+                L'estetica è <strong>volutamente monumentale</strong>: divinità greche (Poseidone, Zeus), 
+                icone egizie (Anubi), creature maestose e iconografia religiosa profonda (arcangeli, cherubini, 
+                la Crocifissione). Ogni tatuaggio è pensato per essere <strong>sovrano e senza tempo</strong>.
               </p>
 
               <p className="text-lg font-medium text-primary">
-                "Tribal Tattoo non è solo un nome, è una promessa: portare sulla tua pelle vera arte originale 
-                di magie antiche, rispettando le tradizioni culturali e l'energia del tuo corpo."
+                "Kingdom Ink è l'incontro tra un museo d'arte classica e l'energia grezza della street culture. 
+                Qui creiamo arte che comanda rispetto — potente, bella, formidabile."
               </p>
 
               <h2 className="font-heading text-3xl text-foreground mt-12 mb-4">
-                Arte Tribale Originale — Non Semplici Copie
+                Elevated Street Culture & Lettering Magistrale
               </h2>
 
               <p>
-                In un mondo dove i tatuaggi tribali vengono spesso copiati da cataloghi senza rispetto per la 
-                cultura originaria, Claudio Ciliberti si distingue per la sua dedizione all'autenticità. 
-                Ogni progetto è studiato in profondità: dalla consultazione iniziale in cui si ascolta la storia 
-                del cliente, alla ricerca simbolica, fino al disegno freehand che nasce direttamente sul corpo.
+                A fianco del realismo classico, Kingdom Ink eccelle nel <strong>custom lettering freehand</strong> 
+                con radici nella tradizione Chicano. Dai blocchi gotici aggressivi alle eleganti filigrane corsive 
+                ("Resilience," "One King"), ogni scritta è disegnata a mano per essere audace, dinamica, 
+                senza compromessi.
               </p>
 
               <p>
-                <strong>Polinesiano</strong>, <strong>Maori</strong>, <strong>Tribale</strong>, <strong>Dot Work</strong>, 
-                <strong> Black Work</strong> — ogni stile è affrontato con la massima competenza tecnica e rispetto 
-                culturale. Il risultato? Tatuaggi che non sono solo esteticamente potenti, ma portano in sé un 
-                significato profondo e autentico.
+                <strong>Realismo Black & Grey</strong>, <strong>Ritratti Fotografici</strong>, <strong>Lettering Chicano</strong>, 
+                <strong> Mitologia Epica</strong>, <strong>Surrealismo Viscerale</strong> — ogni stile è eseguito 
+                con precisione tecnica estrema e una visione artistica che unisce il sacro al contemporaneo.
               </p>
 
               <h2 className="font-heading text-3xl text-foreground mt-12 mb-4">
-                Un Tatuaggio Non È Solo un Disegno: È Sacred Ink in Sacred Places
+                Dark Elegance & Urban Heritage — L'Identità di Kingdom Ink
               </h2>
 
               <p>
-                Il tatuaggio tribale è identità, protezione, memoria ancestrale. Ogni linea incisa sulla 
-                pelle porta con sé secoli di tradizione, e il compito del maestro è di onorare questa eredità 
-                mentre la rende parte di te.
+                I tatuaggi di Kingdom Ink hanno un'anima oscura ed elegante. Dai ritratti inquietanti 
+                (clown/chola, Medusa con occhi vuoti) ai teschi astratti con accenti rossi vibranti in stile 
+                trash polka, ogni opera bilancia <strong>bellezza tecnica e intensità viscerale</strong>.
               </p>
 
               <div className="bg-card p-8 rounded-sm mt-8 border-2 border-accent/20">
-                <h3 className="font-heading text-2xl text-foreground mb-4">Il Processo Sacro</h3>
+                <h3 className="font-heading text-2xl text-foreground mb-4">Il Processo Kingdom Ink</h3>
                 <ul className="space-y-3">
-                  <li><strong>Consultazione Gratuita</strong> – Incontro per conoscersi, studiare l'anatomia e costruire insieme il progetto ideale.</li>
-                  <li><strong>Ricerca Simbolica</strong> – Studio approfondito dei significati culturali e della tradizione tribale.</li>
-                  <li><strong>Design Freehand</strong> – Il maestro disegna direttamente sul tuo corpo seguendo il flusso muscolare.</li>
-                  <li><strong>Il Rito del Tatuaggio</strong> – L'arte prende vita con precisione, sicurezza e rispetto sacro.</li>
-                  <li><strong>Cura Post-Tatuaggio</strong> – Istruzioni complete e assistenza continua — il rito non finisce con l'ago.</li>
+                  <li><strong>Consulenza Creativa</strong> – Incontro per studiare la tua visione e costruire un concept che ti rappresenti veramente.</li>
+                  <li><strong>Design Monumentale</strong> – Ogni opera è progettata per avere impatto visivo estremo e significato profondo.</li>
+                  <li><strong>Tecnica Chiaroscuro</strong> – Padronanza dei neri profondi e delle sfumature perfette per un effetto 3D fotografico.</li>
+                  <li><strong>Esecuzione Magistrale</strong> – Precisione assoluta, sterilità impeccabile, attenzione ossessiva ai dettagli.</li>
+                  <li><strong>Cura Post-Opera</strong> – Supporto completo per garantire che la tua opera rimanga perfetta nel tempo.</li>
                 </ul>
               </div>
 
               <div className="mt-12 pt-8 border-t border-accent/20">
-                <h3 className="font-heading text-2xl text-foreground mb-6">Prenota il Tuo Tatuaggio Tribale a Moncalieri</h3>
+                <h3 className="font-heading text-2xl text-foreground mb-6">Prenota la Tua Opera d'Arte a Torino</h3>
                 <p className="mb-6">
-                  Se cerchi vera arte tribale originale — non copie da catalogo —  affidati a 30 anni di esperienza 
-                  e passione. La consulenza è gratuita e senza impegno.
+                  Se cerchi tatuaggi che comandino rispetto — realismo fotografico, mitologia epica, lettering 
+                  magistrale — Kingdom Ink è il tuo regno. Consulenza gratuita per discutere il tuo progetto.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <ContactDialog>

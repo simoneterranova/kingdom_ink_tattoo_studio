@@ -15,7 +15,7 @@ export const WhatsAppButton = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   // Format phone number for WhatsApp (remove spaces, keep +)
-  const phoneNumber = "+393388398005"; // Gran Babar phone from shopConfig
+  const phoneNumber = "+393385689035"; // Gran Babar phone from shopConfig
   
   // Default message (optional - can be customized)
   const defaultMessage = encodeURIComponent(
