@@ -21,44 +21,44 @@
 
 // ── IMAGE ASSETS ──────────────────────────────────────────────────────────────
 // Replace these files in src/assets/ with Kingdom Ink's own photos/videos.
-import heroBg    from "@/assets/output_web.mp4";
+import heroBg    from "@/assets/hero-bg.jpg";
 
 // Artist photos
-import artist1   from "@/assets/claudio1.webp";   // Simone Sorrentino – portrait 1
+import artist1   from "@/assets/simone.png";   // Simone Sorrentino – portrait 1
 import artist2   from "@/assets/claudio2.webp";   // Simone Sorrentino – portrait 2
 import artist3   from "@/assets/claudio3.webp";   // Simone Sorrentino – portrait 3
 
 import gallery1  from "@/assets/tattoo-1.webp";
-import gallery2  from "@/assets/tattoo-2.webp";
-import gallery3  from "@/assets/tattoo-3.webp";
-import gallery4  from "@/assets/tattoo-4.webp";
-import gallery5  from "@/assets/tattoo-5.webp";
-import gallery6  from "@/assets/tattoo-6.webp";
-import gallery7  from "@/assets/tattoo-7.webp";
-import gallery8  from "@/assets/tattoo-8.webp";
-import gallery9  from "@/assets/tattoo-9.webp";
+import gallery2  from "@/assets/tattoo-2.jpg";
+import gallery3  from "@/assets/tattoo-3.jpg";
+import gallery4  from "@/assets/tattoo-4.jpg";
+import gallery5  from "@/assets/tattoo-5.jpg";
+import gallery6  from "@/assets/tattoo-6.jpg";
+import gallery7  from "@/assets/tattoo-7.jpg";
+import gallery8  from "@/assets/tattoo-8.jpg";
+import gallery9  from "@/assets/tattoo-9.jpg";
 import gallery10 from "@/assets/tattoo-10.webp";
-import gallery11 from "@/assets/tattoo-11.webp";
-import gallery12 from "@/assets/tattoo-12.webp";
-import gallery13 from "@/assets/tattoo-13.webp";
-import gallery14 from "@/assets/tattoo-14.webp";
+import gallery11 from "@/assets/tattoo-11.jpg";
+import gallery12 from "@/assets/tattoo-12.jpg";
+import gallery13 from "@/assets/tattoo-13.jpg";
+import gallery14 from "@/assets/tattoo-14.jpg";
 import gallery15 from "@/assets/studio.mp4";
-import gallery16 from "@/assets/Progetto video 3.mp4";
+import gallery16 from "@/assets/tattoo-164.mp4";
 
 import piercing1  from "@/assets/piercings-photos/piercing-1.webp";
-import piercing2  from "@/assets/piercings-photos/piercing-2.webp";
-import piercing3  from "@/assets/piercings-photos/piercing-3.webp";
-import piercing4  from "@/assets/piercings-photos/piercing-4.webp";
-import piercing5  from "@/assets/piercings-photos/piercing-5.webp";
-import piercing6  from "@/assets/piercings-photos/piercing-6.webp";
-import piercing7  from "@/assets/piercings-photos/piercing-7.webp";
-import piercing8  from "@/assets/piercings-photos/piercing-8.webp";
-import piercing9  from "@/assets/piercings-photos/piercing-9.webp";
-import piercing10 from "@/assets/piercings-photos/piercing-10.webp";
-import piercing11 from "@/assets/piercings-photos/piercing-11.webp";
-import piercing12 from "@/assets/piercings-photos/piercing-12.webp";
-import piercing13 from "@/assets/piercings-photos/piercing-13.webp";
-import piercing14 from "@/assets/piercings-photos/piercing-14.webp";
+import piercing2  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing3  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing4  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing5  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing6  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing7  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing8  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing9  from "@/assets/piercings-photos/piercing-1.webp";
+import piercing10 from "@/assets/piercings-photos/piercing-1.webp";
+import piercing11 from "@/assets/piercings-photos/piercing-1.webp";
+import piercing12 from "@/assets/piercings-photos/piercing-1.webp";
+import piercing13 from "@/assets/piercings-photos/piercing-1.webp";
+import piercing14 from "@/assets/piercings-photos/piercing-1.webp";
 
 // ── DISEGNI IMPORTS COMMENTED OUT (NOT NEEDED FOR THIS SHOP) ──
 // import disegni1  from "@/assets/disegni-photos/disegni-1.webp";
@@ -383,10 +383,10 @@ const shopConfig = {
       name: "Simone Sorrentino",
       role: "Fondatore & Artista Tatuatore",
       image: artist1,
-      images: [artist1, artist2, artist3],
+      //images: [artist1, artist2, artist3],
       bio: "Simone è l'anima di Kingdom Ink: un artista che trasforma idee in opere d'arte permanenti. Specializzato nel realismo black & gray, lavora ogni progetto con cura ossessiva per i dettagli, consigliando i clienti con sincerità e trasparenza. Il suo studio è uno spazio accogliente e impeccabilmente pulito, dove la qualità non è mai un optional.",
       tags: ["Realistico", "Black & Gray", "Ritratti", "PMU", "Piercing", "Su Misura"],
-      years: "—",   // ← aggiorna con anni reali di esperienza se disponibili
+      years: "7",   // ← aggiorna con anni reali di esperienza se disponibili
     },
   ],
 
